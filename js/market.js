@@ -24,7 +24,7 @@ $provisionsBtn.click(function() {
   var newAmount = gold - pro;
   setPlayerGold(newAmount);
   $playerHealth.text(getPlayerHealth() + 'HP');
-  $playerGold.text(gold + 'Gold');
+  $playerGold.text(newAmount + 'Gold');
   $playerArmor.text(armor + 'Armor');
   console.log('it worked');
 });
