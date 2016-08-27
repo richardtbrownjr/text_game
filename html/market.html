@@ -14,14 +14,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h4>10 gold: Provisions // restore health to full</h4>
-            <h4>100 gold: Increase Health</h4>
+            <h4 id='provisions'>10 gold: Provisions // restore health to full</h4>
+            <h4 id='inc'>100 gold: Increase Health</h4>
           </div>
       </div>
       <div class="row">
          <div class="col-md-12">
-           <button class='btn btn-primary' id='provisions'>Buy Provisions</button>
-           <button class='btn btn-primary' id ='health'>Buy Increase Health</button>
+           <button class='btn btn-primary' id='provisionsBtn'>Buy Provisions</button>
+           <button class='btn btn-primary' id ='healthBtn'>Buy Increase Health</button>
        </div>
        </div>
        <div class="row">
@@ -29,10 +29,28 @@
            <button class='btn btn-primary' id ='home'>Go home</button>
        </div>
        </div>
-
        </div>
+       <div class="row">
+          <div class = "col-md-12">
+             <ul>
+                 <button class="sleeve">
+                     Health
+                     <span id='playerHealth' class="insert Health"></span>
+                 </button>
+                 <button class="sleeve">
+                     Gold
+                     <span id='playerGold' class="insert Gold"></span>
+                 </button>
+                 <button class="sleeve">
+                     Armor
+                     <span id='playerArmor' class="insert Armor"></span>
+                 </button>
+             </ul>
+          </div>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='../js/player.js'></script>
     <script src='../js/market.js'></script>
   </body>
 </html>
