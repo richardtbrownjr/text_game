@@ -1,6 +1,6 @@
 function getPlayerHealth(){
   return localStorage.hasOwnProperty('playerHealth') ?
-    parseInt(localStorage.getItem('playerHealth')) : 100;
+    parseInt(localStorage.getItem('playerHealth')) : 15;
 }
 
 function setPlayerHealth(health){

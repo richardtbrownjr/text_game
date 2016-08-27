@@ -9,7 +9,7 @@ var maxHealth = 100;
 var health = getPlayerHealth();
 var armor = 300;
 var gold = getPlayerGold();
-$playerHealth.text(health + 'HP');
+$playerHealth.text(getPlayerHealth() + 'HP');
 $playerGold.text(gold + 'Gold');
 $playerArmor.text(armor + 'Armor');
 
@@ -19,11 +19,11 @@ $home.click(function() {
 
 $provisionsBtn.click(function() {
   var health = getPlayerHealth();
-  setPlayerMaxHealth(maxHealth);
+  setPlayerHealth(maxHealth);
   var gold = getPlayerGold();
   var newAmount = gold - pro;
   setPlayerGold(newAmount);
-  $playerHealth.text(health + 'HP');
+  $playerHealth.text(getPlayerHealth() + 'HP');
   $playerGold.text(gold + 'Gold');
   $playerArmor.text(armor + 'Armor');
   console.log('it worked');
