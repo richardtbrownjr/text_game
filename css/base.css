@@ -1,5 +1,6 @@
 .jumbotron {
   font-family: fantasy;
+   background: rgba(255, 254, 254, 0.5);
 }
 #home-page {
     background: url("../images/home.jpg");
