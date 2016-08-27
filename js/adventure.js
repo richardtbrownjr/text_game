@@ -1,6 +1,9 @@
 var $dragon = $('#dragon');
 var $crusade = $('#crusade');
 var $treasure = $('#treasure');
+var health = 100;
+var armor = 300;
+var gold = 100;
 
 
 $dragon.click(function() {
