@@ -1,3 +1,13 @@
 .jumbotron {
   font-family: fantasy;
 }
+#home-page {
+    background-image: url("../images/home.jpg");
+}
+#market-page {
+    background-image: url("../images/market.png");
+}
+#lazy {
+    background-image: url("../images/kayne.jpg");
+    color: 'white'
+}
