@@ -4,7 +4,7 @@
 
 .jumbotron {
   font-family: fantasy;
-   background: rgba(255, 254, 254, 0.5);
+  background: rgba(255, 254, 254, 0.5);
 
 }
 #home-page {
@@ -15,7 +15,7 @@
 }
 #market-page {
     background: url("../images/market.png");
-    background-size:cover;
+    background-size: cover;
     text-align: center;
     color: white
 }
@@ -27,7 +27,7 @@
 }
 #village-page {
     background: url("../images/village.jpg" );
-    background-size:cover;
+    background-size: cover;
     text-align: center;
     color: white
 }
@@ -45,9 +45,12 @@
     color: white
 }
 
-body
-{
-  background: url(http://www.ambrosiasw.com/assets/images/graphics_products/ipadwallpaper/wallpaper/Felt-Green.jpg);
+#armoury {
+    background: url("../images/armoury.jpg" );
+    background-size:cover;
+    text-align: center;
+    color: white
+
 }
 
 .sleeve
