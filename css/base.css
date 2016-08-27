@@ -11,3 +11,7 @@
     background-image: url("../images/kayne.jpg");
     color: 'white'
 }
+#village-page {
+    background: url("../images/village.jpg" );
+    background-size:cover;
+}
