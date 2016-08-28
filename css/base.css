@@ -3,7 +3,17 @@
 .jumbotron {
   font-family: fantasy;
   background: rgba(255, 254, 254, 0.5);
-
+  padding: 0.5em 0.6em;
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+        .btn {
+            padding: 0.5em;
+        }
+    }
+}
 }
 #looking-treasure {
     background: url("../images/pirate_cave.jpg");
