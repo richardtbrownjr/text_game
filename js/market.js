@@ -14,11 +14,11 @@ function updateDisplay() {
   var maxHealth = getPlayerMaxHealth();
   var armor = getPlayerArmor();
   var gold = getPlayerGold();
-  $playerHealth.text(health + 'HP');
-  $playerGold.text(gold + 'Gold');
-  $playerArmor.text(armor + 'Armor');
+  $playerHealth.text(health + ' HP');
+  $playerGold.text(gold + ' Gold');
+  $playerArmor.text(armor + ' Armor');
   $healthBtn.attr('disabled', gold < incHealth);
-  $provisionsBtn.attr('disabled', health == maxHealth || gold < pro);
+  $provisionsBtn.attr('disabled', health >= maxHealth || gold < pro);
 }
 
 updateDisplay();
@@ -40,6 +40,7 @@ $healthBtn.click(function() {
   var gold = getPlayerGold();
   var maxHealth = getPlayerMaxHealth() + 10;
   setPlayerHealth(maxHealth);
+  setPlayerMaxHealth(maxHealth);
   var newAmount = gold - incHealth;
   setPlayerGold(newAmount);
   updateDisplay();
