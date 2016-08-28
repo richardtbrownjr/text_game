@@ -5,9 +5,9 @@ var $playerHealth = $('#playerHealth');
 var $playerGold = $('#playerGold');
 var $playerArmor = $('#playerArmor');
 var maxHealth = 100;
-var health = 10;
-var armor = 300;
-var gold = 100;
+var health = getPlayerHealth();
+var armor = getPlayerArmor();
+var gold = getPlayerGold();
 
 $playerHealth.text(health + 'HP');
 $playerGold.text(gold + 'Gold');
