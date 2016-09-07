@@ -1,3 +1,3 @@
 # text_game
-This was a weekend project to attempt to build something over a today period. 
-Worked on learning html and javascript.
+This was a weekend project.  The task was to build something over a two day period. 
+The objective was to learn about html and javascript.
